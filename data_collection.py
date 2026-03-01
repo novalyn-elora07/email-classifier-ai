@@ -2,7 +2,7 @@ from datasets import load_dataset
 import pandas as pd
 
 # Paste your HuggingFace token below
-token = "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"
+token=True
 
 # Load dataset
 dataset = load_dataset(

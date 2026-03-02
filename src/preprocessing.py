@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 
 # Load dataset
-df = pd.read_csv("train.csv")
+df = pd.read_csv("data/train.csv")
 
 stop_words = set(stopwords.words('english'))
 
@@ -31,6 +31,6 @@ def clean_text(text):
 
 df["clean_text"] = df["text"].apply(clean_text)
 
-df.to_csv("cleaned_dataset.csv", index=False)
+df.to_csv("data/cleaned_dataset.csv", index=False)
 
 print("Preprocessing Completed")

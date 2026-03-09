@@ -2,22 +2,22 @@ import pandas as pd
 import joblib
 from sklearn.metrics import accuracy_score, classification_report
 
-# Load dataset
+# Load test dataset
 df = pd.read_csv("data/test.csv")
 
-X = df[["text"]]
-y = df["category"]
+# Features and labels
+X = df[["text"]]       # email text
+y = df[["category"]]       # actual category
 
 # Load trained model
-model = joblib.load("models/logistic_model.pkl")
+model = joblib.load("models/baseline_model.pkl")
 
-# Predict
+# Make predictions
 predictions = model.predict(X)
 
-# Accuracy
+# Evaluate model
 accuracy = accuracy_score(y, predictions)
-print("Model Accuracy:", accuracy)
 
-# Detailed metrics
-print("\nClassification Report:")
+print("Model Accuracy:", accuracy)
+print("\nClassification Report:\n")
 print(classification_report(y, predictions))

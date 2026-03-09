@@ -5,3 +5,17 @@ datasets
 transformers
 torch
 nltk
+
+MODEL PIPLINE :
+
+Data Collection
+
+Data Preprocessing
+
+Text Vectorization (TF-IDF)
+
+Email Classification Model
+
+Urgency Detection Model
+
+Model Evaluation

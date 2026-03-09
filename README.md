@@ -10,13 +10,19 @@ Milestone 1:Data Collection & Preprocessing
 - Text normalized
 
 Dataset:
+
 High Accuracy Email Classifier Dataset
 
 Tools Used:
+
 Python
+
 VS Code
+
 Pandas
+
 NLP
+
 GitHub
 
  Milestone 2 – Email Categorization Engine
@@ -27,30 +33,79 @@ Develop and evaluate machine learning models to classify emails into predefined 
 ✅ Models Implemented
 
 Logistic Regression
+
 Naive Bayes
 
 ✅ Machine Learning Workflow
 
 Text Vectorization using TF-IDF
+
 Train-Test Split
+
 Model Training
+
 Model Evaluation
+
 Model Saving (.pkl files)
 
 📊 Evaluation Metrics
 
 Accuracy
+
 Precision
+
 Recall
+
 F1-Score
+
 These metrics ensure balanced performance across all email categories.
 
 🛠 Tech Stack
 
 Python
+
 Pandas
+
 NumPy
+
 Scikit-learn
+
 Matplotlib
+
 NLTK
+
 Hugging Face Datasets
+
+Milestone 3: Urgency Detection & Scoring
+
+Objective: Predict urgency level of emails.
+
+Tasks Completed
+
+Built urgency classification model.
+
+Implemented keyword-based urgency detection.
+
+Combined ML-based and rule-based approaches.
+
+Evaluated model using confusion matrix and F1 score.
+
+Urgency Levels
+
+High
+
+Medium
+
+Low
+
+Example Urgency Keywords
+
+urgent
+
+asap
+
+immediately
+
+not working
+
+critical

@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+scikit-learn
+transformers
+torch
+pandas
+numpy
+streamlit
+matplotlib
+seaborn
+datasets
+pytest
+pydantic
+python-multipart
+joblib
+accelerate

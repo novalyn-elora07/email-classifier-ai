@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependencies
+/.vscode/
+/.idea/
+
+# Custom Project Data & Models
+data/
+models/distilbert/
+models/results/
+models/logs/
+*.csv
+*.safetensors
+*.bin
